@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 16px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	min-height: 500px;
+	background-color: #ddd;
+}
+.nav{
+	background-color: darkcyan;
+	height:50px;
+}
+ul{
+	
+	list-style: none;
+	display: flex;	
+	justify-content: flex-end;
+	align-content: center;
+	width:50%;
+}
+ul li{
+	flex:1 1 20%;
+	display: block;
+	
+}
+a{
+	text-decoration: none;
+	color:firebrick;
+	}
